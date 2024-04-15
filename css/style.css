@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/**---------RESET--------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/**------------------------- HEADER -------------------------------*/
+header {
+    background-color:#FFCDD1;
+}
+.navbar a img {
+    max-width: 17%;
+    max-height: 17%;
+}
+header nav ul {
+    list-style: none;
+    display: inline-block;
+}
+header nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: "nunito";
+    font-weight: bold;
+    font-size: 25px;
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+}
+/**------------------------ CARRUSEL FOTOS -----------------------*/
+img {
+    max-width: 100%;
+    max-height: 100%;
+   }
+.carrusel-fotos img {
+    max-height: 30%;
+    max-width: 30%;
+}
+
+/**-----------DIVIDER 1---------------*/
+.divider-one h1 {
+    font-family: "nunito";
+    font-weight: bolder;
+    text-align: center;
+    font-size: xx-large;
+}
+.divider-one{
+    background-color:#E1C6FF;
+    padding: 3%;
+}
+
+
+/**----------- Product Cards------------*/
+
+.product-cards div{
+    display: inline-block;
+    width: fit-content;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #545759;
+    margin: 2%;
+}
+.product-cards div img {
+    width: 420.32px;
+    height: 420.32px;
+    border-radius: 10px 10px 0 0;
+    margin: 15px;
+    margin-bottom: 25px;
+}
+.product-cards h2 {
+    font-family: "nunito";
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin-top: 3px;
+}
+.product-cards div a {
+    font-family: "nunito";
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    background-color: #FFCDD1;
+    border-radius: 5px;
+    padding: 10px;
+}
+.product-cards div a{
+    display:inline-block;
+    margin: 10px 10px 20px 170px;
+}
